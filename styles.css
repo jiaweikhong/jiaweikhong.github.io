@@ -11,10 +11,20 @@ h2 {
 a:link,
 a:visited {
     text-decoration: none;
+	color: lightslategrey;
 }
 
 a:hover {
     color: black;
+}
+
+.HorizontalPictureList {
+	list-style-type: none;
+	padding: 0px;
+}
+
+.HorizontalPictureList li {
+	display: inline-block;
 }
 
 .HorizontalList {
@@ -23,15 +33,9 @@ a:hover {
 }
 
 .HorizontalList li {
-	font-size: 16px;
     display: inline-block;
     padding-right: 50px;
-    float: left;
-    color: darkgrey;
-}
-
-.HorizontalList li:nth-child(1) {
-    color: black;
+    color: dimgrey;
 }
 
 nav ul {
@@ -40,7 +44,6 @@ nav ul {
 }
 
 nav li {
-	font-size: 16px;
     display: inline;
     padding-right: 0px;
     float: left;
